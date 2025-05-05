@@ -26,6 +26,5 @@ public class ConsultaMoneda {
 
         return new Gson().fromJson(response.body(), Monedas.class);
 
-
     }
 }
