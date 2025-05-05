@@ -22,19 +22,19 @@ Este es un conversor de monedas que permite realizar conversiones entre diferent
    java ConversorDeMonedas
 5. El programa mostrará un menú con las siguientes opciones:
    
-   *Convertir de Dólar a Peso colombiano.
+   * Convertir de Dólar a Peso colombiano.
 
-   *Convertir de Peso colombiano a Dólar.
+   * Convertir de Peso colombiano a Dólar.
 
-   *Convertir de Euro a Peso colombiano.
+   * Convertir de Euro a Peso colombiano.
 
-   *Convertir de Peso colombiano a Euro.
+   * Convertir de Peso colombiano a Euro.
 
-   *Convertir de Peso colombiano a Dólar australiano.
+   * Convertir de Peso colombiano a Dólar australiano.
 
-   *Convertir de Dólar australiano a Peso colombiano.
+   * Convertir de Dólar australiano a Peso colombiano.
 
-   *Salir.
+   * Salir.
 
 6. Elige el número correspondiente a la opción que desees y luego ingresa el valor a convertir.
 
@@ -43,11 +43,11 @@ Este es un conversor de monedas que permite realizar conversiones entre diferent
 ##Tecnologías utilizadas 
 Este proyecto hace uso de las siguientes tecnologías:
 
-   *Java: El lenguaje de programación principal utilizado para implementar el conversor de monedas.
+   * Java: El lenguaje de programación principal utilizado para implementar el conversor de monedas.
 
-   *API de tasas de cambio (ejemplo: Open Exchange Rates): Utilizado para obtener tasas de cambio en tiempo real entre diferentes monedas.
+   * API de tasas de cambio (ejemplo: Open Exchange Rates): Utilizado para obtener tasas de cambio en tiempo real entre diferentes monedas.
 
-   *Scanner (Java): Utilizado para capturar la entrada del usuario desde la consola.
+   * Scanner (Java): Utilizado para capturar la entrada del usuario desde la consola.
 
 
 :construction: Proyecto en construcción :construction:
