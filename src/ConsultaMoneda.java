@@ -6,9 +6,8 @@ import java.net.URI;
 import java.net.http.HttpResponse;
 
 public class ConsultaMoneda {
-    public Monedas buscaMoneda (int numeroMoneda, String monedaBase,
-                                String monedaDestino){
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/0285e1c894d9a435136ea95c/pair/"+monedaBase+"/"+monedaDestino);
+    public Monedas buscaMoneda ( String monedaBase, String monedaDestino, double valorAConvertir){
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/0285e1c894d9a435136ea95c/pair/" + monedaBase + "/"+ monedaDestino + "/" + valorAConvertir);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -20,11 +19,13 @@ public class ConsultaMoneda {
         try {
             response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.body());
+
         } catch (Exception e){
             throw new RuntimeException("No se encontro esa moneda.");
         }
 
         return new Gson().fromJson(response.body(), Monedas.class);
+
+
     }
 }
