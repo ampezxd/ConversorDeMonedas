@@ -12,7 +12,7 @@ Este es un conversor de monedas que permite realizar conversiones entre diferent
 
 1. Clona este repositorio a tu máquina local:
    ```bash
-   git clone https://github.com/tuusuario/ConversorDeMonedas.git
+   git clone https://github.com/ampezxd/ConversorDeMonedas.git
 2. Abre una terminal y navega al directorio del proyecto.
 3. Asegúrate de tener instalado Java en tu sistema. Puedes verificarlo con:
    ```bash
