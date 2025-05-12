@@ -17,10 +17,12 @@ Este es un conversor de monedas que permite realizar conversiones entre diferent
 3. Asegúrate de tener instalado Java en tu sistema. Puedes verificarlo con:
    ```bash
     java -version
-4. Ejecute el programa con el siguiente comando:
+4. En la clase ConsultaMoneda hay un String llamado apiKey en el cual debe colocar su apiKey  que le proporciona el sitio https://www.exchangerate-api.com
+   
+5. Ejecute el programa con el siguiente comando:
    ```bash
    java ConversorDeMonedas
-5. El programa mostrará un menú con las siguientes opciones:
+6. El programa mostrará un menú con las siguientes opciones:
    
    * Convertir de Dólar a Peso colombiano.
 
@@ -36,9 +38,9 @@ Este es un conversor de monedas que permite realizar conversiones entre diferent
 
    * Salir.
 
-6. Elige el número correspondiente a la opción que desees y luego ingresa el valor a convertir.
+7. Elige el número correspondiente a la opción que desees y luego ingresa el valor a convertir.
 
-7. El programa mostrará la tasa de cambio actual y el valor convertido.
+8. El programa mostrará la tasa de cambio actual y el valor convertido.
 
 ##Tecnologías utilizadas 
 Este proyecto hace uso de las siguientes tecnologías:
